@@ -19,8 +19,8 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
 });
 
 
-Route::get('articles', 'ArticleController@index');
-Route::get('articles/{id}', 'ArticleController@show');
-Route::post('articles', 'ArticleController@store');
-Route::put('articles/{id}', 'ArticleController@update');
-Route::delete('articles/{id}', 'ArticleController@delete');
+Route::get('policies', 'PolicyController@index');
+Route::get('policies/{policy}', 'PolicyController@show');
+Route::post('policies', 'PolicyController@store');
+Route::put('policies/{policy}', 'PolicyController@update');
+Route::delete('policies/{policy}', 'PolicyController@delete');
