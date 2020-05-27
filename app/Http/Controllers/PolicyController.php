@@ -14,7 +14,10 @@ class PolicyController extends Controller
 
      public function show(Policy $policy)
      {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0ac54e610341dbbbf2c92c6149f991ece174dd60
          return $policy;
      }
 
