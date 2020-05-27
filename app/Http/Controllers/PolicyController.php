@@ -14,6 +14,7 @@ class PolicyController extends Controller
 
      public function show(Policy $policy)
      {
+
          return $policy;
      }
 
